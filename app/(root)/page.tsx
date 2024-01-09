@@ -9,14 +9,14 @@ export default function Home() {
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="h1-bold">
-              Host, Connect, Celebrate: Your Events, our Platform
+              Divulgue, Conecte-se, Celebre: Seus Eventos, nossa Plataforma
             </h1>
             <p className="p-regular-20 md:p-regular-24">
-              Book and learn helpfull tips from 3.168+ mentors in world-class
-              companies with our global community
+              Encontre os seus eventos favoritos e de quebra ainda consiga
+              descontos exclusivos conosco
             </p>
             <Button size="lg" asChild className="button w-full sm:w-fit">
-              <Link href="#events">Explore Now</Link>
+              <Link href="#events">Explore Agora</Link>
             </Button>
           </div>
           <Image
@@ -34,11 +34,11 @@ export default function Home() {
         className="wrapper my-8 flex flex-col gap-8 md:gap-12"
       >
         <h2 className="h2-bold">
-          Trusted by <br /> Thousands of Events
+          Indicado por <br /> Milhares de Eventos
         </h2>
         <div className="flex w-full flex-col gap-5 md:flex-row">
-          Search
-          CategoryFilter
+          Busca <br/>
+          Filtro de Categoria
         </div>
       </section>
     </>
